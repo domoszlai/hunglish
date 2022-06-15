@@ -1,7 +1,10 @@
 package org.dlacko.hunglish;
 
 import android.content.Context;
+import android.view.ActionMode;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -67,6 +70,14 @@ public class ListViewAdapter extends BaseAdapter {
                 HtmlCompat.fromHtml(
                         arraylist.get(position).getHuSentence().asHtml(),
                         HtmlCompat.FROM_HTML_MODE_LEGACY));
+
+        holder.huSentence.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                return false;
+            }
+        });
+
 
         holder.enSentence.setText(
                 HtmlCompat.fromHtml(

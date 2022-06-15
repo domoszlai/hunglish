@@ -35,6 +35,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="huSentence"
+                android:textIsSelectable="true"
+                android:longClickable="true"
+                android:focusable="true"
+                android:enabled="true"
                 android:textSize="12sp" />
 
             <Space
@@ -47,6 +51,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="enSentence"
+                android:textIsSelectable="true"
+                android:longClickable="true"
+                android:focusable="true"
+                android:enabled="true"
                 android:textSize="12sp" />
         </LinearLayout>
 
