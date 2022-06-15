@@ -84,7 +84,12 @@ public class ListViewAdapter extends BaseAdapter {
                         arraylist.get(position).getEnSentence().asHtml(),
                         HtmlCompat.FROM_HTML_MODE_LEGACY));
 
-        holder.genre.setText(arraylist.get(position).getGenre().getTitle());
+        try {
+            holder.genre.setText(arraylist.get(position).getGenre().getTitle());
+        } catch (Exception e) {
+            // If genre cannot be found at least it does not crash
+            holder.genre.setText("-");
+        }
 
         return convertView;
     }

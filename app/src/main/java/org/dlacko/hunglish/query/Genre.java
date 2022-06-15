@@ -10,7 +10,7 @@ public enum Genre {
     LITERATURE(2, "Literature"),
     MAGAZINE(4, "Magazine"),
     SCIENCE(8, "Science"),
-    SOFTWARE(5, "Software documentation")
+    SOFTWARE(5, "Software Documentation")
     ;
 
     private int numVal;
