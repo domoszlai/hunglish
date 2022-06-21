@@ -71,14 +71,6 @@ public class ListViewAdapter extends BaseAdapter {
                         arraylist.get(position).getHuSentence().asHtml(),
                         HtmlCompat.FROM_HTML_MODE_LEGACY));
 
-        holder.huSentence.setOnLongClickListener(new View.OnLongClickListener() {
-            @Override
-            public boolean onLongClick(View view) {
-                return false;
-            }
-        });
-
-
         holder.enSentence.setText(
                 HtmlCompat.fromHtml(
                         arraylist.get(position).getEnSentence().asHtml(),

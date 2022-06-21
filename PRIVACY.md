@@ -1,0 +1,18 @@
+# Privacy Policy 
+
+## Collection of Personal Information
+
+The app does not collect, transmit or share any information, personal or otherwise. 
+
+However, the underlying service, hunglish.hu, may collect publicly available information, 
+e.g. IP addresses, queries, etc. For their privacy policy, please visit [hunglish.hu](https://hunglish.hu).
+
+## Email
+
+If you email the developer for support or other feedback, the emails with email addresses will be 
+retained for quality assurance purposes. The email addresses will be used only to reply to the concerns 
+or suggestions raised and will never be used for any marketing purpose.
+
+## Disclosure of Personal Information
+
+We will not disclose your information to any third party except if you expressly consent or where required by law.
